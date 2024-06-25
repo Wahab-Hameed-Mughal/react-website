@@ -1,0 +1,62 @@
+/*=================
+ * TIMER
+ *=================*/
+.dark .timer.clock {
+  color: white;
+}
+.timer.clock {
+  color: black;
+  display: flex;
+  margin: auto;
+  position: relative;
+  padding-left: 6px;
+  overflow: hidden;
+
+  .clock-display-grp {
+    width: 100%;
+    position: relative;
+
+    .number-grp {
+      width: auto;
+      display: block;
+      height: 100px;
+      float: left;
+      overflow: hidden;
+
+      .number-grp-wrp {
+        width: 100%;
+        position: relative;
+        transition: 0.5s;
+
+        .num {
+          width: 100%;
+          position: relative;
+          height: 100px;
+
+          p {
+            width: auto;
+            display: table;
+            font-size: 100px;
+            line-height: 100px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  .clock-separator {
+    width: auto;
+    float: left;
+    display: block;
+    height: 156px;
+
+    p {
+      width: auto;
+      display: table;
+      font-size: 100px;
+      line-height: 90px;
+      font-weight: bold;
+    }
+  }
+}

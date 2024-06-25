@@ -1,0 +1,47 @@
+.menu {
+  /* width: 250px; */
+  width: 75px;
+  transition: 1s;
+
+  .logo img {
+    width: 0;
+  }
+
+  .feedname {
+    font-size: 14px;
+    justify-content: center;
+
+    span {
+      width: 0;
+      opacity: 0;
+      margin: 0;
+    }
+  }
+}
+
+.logo {
+  transition: 1s;
+}
+.feedname {
+  transition: 1s;
+}
+
+.menuopen {
+  /* width: 75px; */
+  width: 250px;
+
+  .logo img {
+    width: 100%;
+  }
+
+  .feedname {
+    font-size: 14px;
+    justify-content: start;
+
+    span {
+      width: fit-content;
+      opacity: 1;
+      margin-right: 10px;
+    }
+  }
+}
